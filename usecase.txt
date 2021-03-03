@@ -1,0 +1,13 @@
+Fund Transfer Application
+1. As a user, i should be able to login to application successfully when i enter valid credentials
+a. Error message should be thrown when i enter invalid credentials
+2. As a user, After successfull login, i should be able to see Account summary
+(Account Number, Account Type, Balance, IFSC code, Branch Name)
+3. As a user, i should be able Add and View Beneficiary details
+(Name, Email Id, Account Number, IFSC code, Branch Name, etc...)
+4. As a user, i should be able do fund transfer :
+from Account number, to Account number , Amount and comments
+5. As a user, i should be able to see my Transaction history
+6. As a user, i should be able to logout from application
+
+

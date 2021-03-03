@@ -1,0 +1,132 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userCode": "BANK001",
+      "emailId": "riyan@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "userCode": "BANK002",
+      "emailId": "mark@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": 3,
+      "userCode": "BANK003",
+      "emailId": "lucas@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": 4,
+      "userCode": "BANK004",
+      "emailId": "joseph@gmail.com",
+      "password": "123"
+    }
+  ],
+  "accountSummary": [
+    {
+      "id": 1,
+      "userCode": "BANK001",
+      "accountCode": "ACC001",
+      "accountNumber": "1234567890",
+      "accountType": "Savings",
+      "balance": 50000,
+      "IFSCCode": "HYD1234",
+      "branchName": "Hyderabad",
+      "emailId": "riyan@gmail.com"
+    },
+    {
+      "id": 2,
+      "userCode": "BANK002",
+      "accountCode": "ACC002",
+      "accountNumber": "1987456123",
+      "accountType": "Savings",
+      "balance": 20000,
+      "IFSCCode": "HYD5678",
+      "branchName": "Hyderabad",
+      "emailId": "mark@gmail.com"
+    },
+    {
+      "id": 3,
+      "userCode": "BANK003",
+      "accountCode": "ACC003",
+      "accountNumber": "9874561230",
+      "accountType": "Savings",
+      "balance": 80000,
+      "IFSCCode": "HYD9101",
+      "branchName": "Hyderabad",
+      "emailId": "lucas@gmail.com"
+    },
+    {
+      "id": 4,
+      "userCode": "BANK004",
+      "accountCode": "ACC004",
+      "accountNumber": "9876543210",
+      "accountType": "Savings",
+      "balance": 20000,
+      "IFSCCode": "HYD1121",
+      "branchName": "Hyderabad",
+      "emailId": "joseph@gmail.com"
+    }
+  ],
+  "beneficiaryDetails": [
+    {
+      "name": "Silver L",
+      "accountNumber": 1987456123,
+      "IFSCCode": "HYD1234",
+      "branchName": "Hyderabad",
+      "email": "silver1@sunkpo.com",
+      "userCode": "BANK001",
+      "id": 1
+    },
+    {
+      "name": "Riyan",
+      "accountNumber": 1987456123,
+      "IFSCCode": "HYD9101",
+      "branchName": "Hyderabad",
+      "email": "riyan@gmail.com",
+      "userCode": "BANK001",
+      "id": 2
+    },
+    {
+      "name": "Riyan",
+      "accountNumber": "1234567890",
+      "IFSCCode": "HYD5678",
+      "branchName": "Hyderabad",
+      "email": "silver@sunkpo.com",
+      "userCode": "BANK003",
+      "id": 3
+    }
+  ],
+  "fundTransfer": [],
+  "accountNumbers": [
+    {
+      "accountNumber": "1987456123"
+    },
+    {
+      "accountNumber": "1234567890"
+    },
+    {
+      "accountNumber": "9874561230"
+    },
+    {
+      "accountNumber": "9876543210"
+    }
+  ],
+  "IFSCCodes": [
+    {
+      "IFSCcode": "HYD1234"
+    },
+    {
+      "IFSCcode": "HYD5678"
+    },
+    {
+      "IFSCcode": "HYD9101"
+    },
+    {
+      "IFSCcode": "HYD1121"
+    }
+  ]
+}
